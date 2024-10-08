@@ -4,18 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header class="header">
-        <section class="section" id="Section">
-            <div class="container mb-5">
+        <section class="section" id="headerSection1">
+            <div class="contanier mb-5">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <h1 class="heading">FwCj</h1>
                     </div>
-                    <div class="col-md-4">
+                        <nav class="nav d-none d-lg-flex main-nav justify-content-lg-center" id="mainNav">
+                            <a href="#" class="nav-link text-uppercase">about</a>
+                            <a href="#" class="nav-link text-uppercase">events</a>
+                            <a href="#" class="nav-link text-uppercase">menu</a>
+                            <a href="#" class="nav-link text-uppercase">gallery</a>
+                            <a href="#" class="nav-link text-uppercase">contacts</a>
+                            <a href="#" class="nav-link text-uppercase">blog</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="headerSection2">
+            <div class="container">
+                <nav class="nav justify-content-center justify-content-md-end">
+                    <a href="#" class="nav-link social-link">
+                        <i class="bi bi-instagram"></i>
+                        <span class="visually-hidden">instagram</span>
+                    </a>
+                    <a href="#" class="nav-link social-link">
+                        <i class="bi bi-facebook"></i>
+                        <span class="visually-hidden">facebook</span>
+                    </a>
+                    <a href="#" class="nav-link social-link">
+                        <i class="bi bi-twitter"></i>
+                        <span class="visually-hidden">twitter</span>
+                    </a>
+                    <a href="#" class="nav-link social-link">
+                        <i class="bi bi-github"></i>
+                        <span class="visually-hidden">github</span>
+                    </a>
+                    <a href="#" class="nav-link social-link">
+                        <i class="bi bi-linkedin"></i>
+                        <span class="visually-hidden">linkedin</span>
+                    </a>
+                </nav>
+            </div>
+        </section>
+        <!-- <section class="section" id="Section">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="heading">FwCj</h1>
+                    </div>
+                    <div class="col-md-6">
                         <ul class="nav justify-content-center justify-content-between">
                             <li>
                                 <a href="#" class="nav-link">about</a>
@@ -35,7 +80,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
     </header>
     <main class="main">
@@ -45,52 +90,80 @@
                     <div class="col-md-5">
                         <img src="images/IMG_2689.jpg"alt="placeholder img" class="img-fluid image w-100" />
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 d-flex align-items-center">
                         <p class="img-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quaerat repudiandae molestias. Magni, id laboriosam accusantium deleniti aspernatur nulla ea temporibus amet reiciendis repudiandae delectus repellendus tempore eveniet ut odit numquam dolores nemo natus quo. Iure deserunt error at quasi dolore neque sequi molestiae, sint magnam inventore distinctio mollitia earum aspernatur adipisci eos fugiat accusantium atque quidem tempora porro reiciendis soluta facere provident! Atque nihil ea modi delectus blanditiis incidunt voluptatibus ut, commodi obcaecati ducimus omnis explicabo nobis enim quo laudantium fugiat corporis, eos laboriosam. Voluptate dicta voluptas vitae, pariatur doloribus labore vel ipsa, est quas odio saepe dolore aliquam?</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section" id="Section2">
-            <div class="container">
+            <div class="container mb-5">
                 <div class="row">
-                        <ul class="nav justify-content-center">
-                            <li>
-                                <a href="#"class="nav-link">sports</a>
-                                <img src="https://via.placeholder.com/50x50"alt="placeholder img" class=" hb-img img-fluid image" />
-                                
-                            </li>
-                            <li>
-                                <a href="#"class="nav-link">gaming</a>
-                                <img src="https://via.placeholder.com/50x50"alt="placeholder img" class=" hb-img img-fluid image" />
-                                
-                            </li>
-                            <li>
-                                <a href="#"class="nav-link">reading</a>
-                                <img src="https://via.placeholder.com/50x50"alt="placeholder img" class=" hb-img img-fluid image" />
-                                
-                            </li>
-                            <li>
-                                <a href="#"class="nav-link">tvshows</a>
-                                <img src="https://via.placeholder.com/50x50"alt="placeholder img" class=" hb-img img-fluid image" />
-                                
-                            </li>
+                    <div class="col-md-3">
+                        <h2>
+                            <a href="#"class=" social-link nav-link text-center fw-bold">Sports</a>
+                        </h2>
+                        <img src="images/dave-adamson--nATH0CrkMU-unsplash.jpg"alt="placeholder img" class="img-fluid image rounded mx-auto mb-3 w-100" />
+                    </div>
+                            <div class="col-md-3">
+                                <h2>
+                                    <a href="#"class=" social-link nav-link text-center fw-bold">Gaming</a>
+                                </h2>
+                                <img src="images/fabio-magalhaes-nmTm7knUnqs-unsplash.jpg"alt="placeholder img" class="img-fluid image rounded mx-auto mb-3 w-100" />
+                            </div>
+                            <div class="col-md-3">
+                                <h2>
+                                    <a href="#"class=" social-link nav-link text-center fw-bold">Reading</a>
+                                </h2>
+                                    <img src="images/miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"alt="placeholder img" class="img-fluid image rounded mx-auto mb-3 w-100" />
+                            </div>
+                            <div class="col-md-3">
+                                <h2>
+                                    <a href="#"class=" social-link nav-link text-center fw-bold">Tvshows</a>
+                                </h2>
+                                    <img src="images/tech-daily-cF6Le-0viHY-unsplash.jpg"alt="placeholder img" class="img-fluid image rounded mx-auto mb-3 w-100" />
+                            </div>
                         </ul>
                     </div>
             </div>
         </section>
     </main>
     <footer class="footer" id="footer">
-        <section class="section" id="footerSection">
-            <h2 class="footerheading">conatacts</h2>
-            <ul class="list-unstyled">
-                <li>
-                    601-918-7211
-                </li>
-                <li>
-                    clintjackson601@gmail.com
-                </li>
-            </ul>
+        <section class="section" id="footerSection1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="footerheading">contacts</h2>
+                        <ul class="list-unstyled">
+                            <li>
+                                601-918-7211
+                            </li>
+                            <li>
+                                clintjackson601@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="nav justify-content-end">
+                            <li>
+                                <a href="#"class="nav-link"><i class="bi bi-instagram"></i>instagram</a>
+                            </li>
+                            <li>
+                                <a href="#"class="nav-link"><i class="bi bi-twitter"></i>twitter</a>
+                            </li>
+                            <li>
+                                <a href="#"class="nav-link"><i class="bi bi-github"></i>github</a>
+                            </li>
+                            <li>
+                                <a href="#"class="nav-link"><i class="bi bi-linkedin"></i>linkin</a>
+                            </li>
+                            <li>
+                                <a href="#"class="nav-link"><i class="bi bi-facebook"></i>facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

@@ -6,7 +6,17 @@
 
 *{box-sizing: border-box;}
 
-.hb-img{
-    border-radius: 50%;
-    border: 1px solid red;
+
+
+
+/* classes */
+
+.social-link{
+    font-size: 25px;
 }
+
+.social-link:hover{
+    color: red;
+}
+
+/* ids */
