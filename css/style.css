@@ -11,12 +11,20 @@
 
 /* classes */
 
+.header-link:hover{
+    color: red;
+}
+
 .social-link{
     font-size: 25px;
 }
 
 .social-link:hover{
     color: red;
+}
+
+.learn{
+    font-weight: 500;
 }
 
 /* ids */
