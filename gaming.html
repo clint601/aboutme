@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Major+Mono+Display&family=Oooh+Baby&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Qwitcher+Grypen:wght@400;700&family=Rubik+Glitch&family=Trade+Winds&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Major+Mono+Display&family=Oooh+Baby&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Qwitcher+Grypen:wght@400;700&family=Rubik+Glitch&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,7 +20,7 @@
             <div class="contanier">
                 <div class="row">
                     <div class="col-lg-8">
-                        <a class="btn btn-primary"
+                        <!-- <a class="btn btn-primary"
                         data-bs-toggle="offcanvas" 
                         href="#offCanvas" 
                         role="button" 
@@ -30,7 +36,7 @@
                             data-bs-dismiss="offcanvas"
                             aria-label="Close">
                         </button>
-                        <ul class="offcanvas-menu list-unstyled">
+                        <ul class="offcanvas-menu">
                             <li>
                                 <a href="index.html" class="offcanvas-item">Home</a>
                             </li>
@@ -53,7 +59,39 @@
                                 <a href="#" class="offcanvas-item">TvShows</a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
+                        <div class="drop-down-div d-lg-none">
+                            <div class="dropdown text-end text-sm-end mt-5">
+                                <button class="btn dropdown-btn dropdowntoggle btn-outline-danger"
+                                type="button" 
+                                role="button"
+                                data-bs-toggle="dropdown" 
+                                aria-expanded="false"
+                                >tap</button>
+                                <ul class="dropdown-menu ">
+                                    <li>
+                                        <a href="index.html" class="dropdown-item">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html" class="dropdown-item">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="myproject.html" class="dropdown-item">Project</a>
+                                    </li>
+                                    <li>
+                                        <a href="sports.html" class="dropdown-item">Sports</a>
+                                    </li>
+                                    <li>
+                                        <a href="gaming.html" class="dropdown-item">Gaming</a>
+                                    </li>
+                                    <li>
+                                        <a href="reading.html" class="dropdown-item">Reading</a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="#" class="dropdown-item">TvShows</a>
+                                    </li> -->
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -63,16 +101,16 @@
             <div class="contanier mb-5">
                 <div class="row">
                     <div class="col-lg-4">
-                        <h1 class="heading">ClintPage</h1>
+                        <h1 class="heading">CjPage</h1>
                     </div>
                         <nav class="nav d-none d-lg-flex main-nav justify-content-lg-center" id="mainNav">
-                            <a href="index.html" class="header-link nav-link text-uppercase">Home</a>
-                            <a href="about.html" class="header-link nav-link text-uppercase">About</a>
-                            <a href="myproject.html" class="header-link nav-link text-uppercase">project</a>
-                            <a href="sports.html" class="header-link nav-link text-uppercase">sports</a>
-                            <a href="gaming.html" class="header-link nav-link text-uppercase">Gaming</a>
-                            <a href="reading.html" class="header-link nav-link text-uppercase">Reading</a>
-                            <a href="tvshows.html" class="header-link nav-link text-uppercase">Tvshow</a>
+                            <a href="index.html" class="header-text header-link nav-link text-uppercase">Home</a>
+                            <a href="about.html" class="header-text header-link nav-link text-uppercase">About</a>
+                            <a href="myproject.html" class="header-text header-link nav-link text-uppercase">project</a>
+                            <a href="sports.html" class="header-text header-link nav-link text-uppercase">sports</a>
+                            <a href="gaming.html" class="header-text header-link nav-link text-uppercase">Gaming</a>
+                            <a href="reading.html" class="header-text header-link nav-link text-uppercase">Reading</a>
+                            <!-- <a href="tvshows.html" class="header-link nav-link text-uppercase">Tvshow</a> -->
                         </nav>
                     </div>
                 </div>
@@ -89,15 +127,15 @@
                         <i class="bi bi-facebook"></i>
                         <span class="visually-hidden">facebook</span>
                     </a>
-                    <a href="#" class="nav-link social-link">
+                    <a href="https://x.com/clint3549283526" class="nav-link social-link">
                         <i class="bi bi-twitter"></i>
                         <span class="visually-hidden">twitter</span>
                     </a>
-                    <a href="#" class="nav-link social-link">
+                    <a href="https://github.com/clint601" class="nav-link social-link">
                         <i class="bi bi-github"></i>
                         <span class="visually-hidden">github</span>
                     </a>
-                    <a href="#" class="nav-link social-link">
+                    <a href="https://www.linkedin.com/in/clint-jackson-61a817331/" class="nav-link social-link">
                         <i class="bi bi-linkedin"></i>
                         <span class="visually-hidden">linkedin</span>
                     </a>
@@ -108,7 +146,7 @@
     <main class="main" id="main">
         <section class="section" id="Section1">
             <div class="container">
-                <h2 class="main-heading text-center mb-5">My Favorite Games</h2>
+                <h2 class=" ab-text text-center mb-5">My Favorite Games</h2>
                 <div class="row">
                     <div class="col-md-6">
                         <figure class="figure">
@@ -117,7 +155,7 @@
                         </figure>
                     </div>
                     <div class="col-md-6">
-                        <h2 class="text-center">Apex Legends</h2>
+                        <h2 class="gm-text text-center">Apex Legends</h2>
                         <p class="img-text text-center">Apex legends is one of my favorite free to play fps games that is on all gaming platforms for Xbox, PlayStation, and Pc</p>
                         <p class="img-text text-center">Apex also have characters that have diffrent roles that they play to support there them</p>
                     </div>
@@ -130,7 +168,7 @@
                                     </figure>
                                 </div>
                                     <div class="col-md-6">
-                                        <h2 class="text-center">Call of Duty</h2>
+                                        <h2 class="gm-text text-center">Call of Duty</h2>
                                         <p class="img-text text-center">Call of Duty is a game I played since I was a child and I have played all of the Call of Duty games that have came out</p>
                                         <p class="img-text text-center">Some of my favorite Call of Duty are Black Opps, Black Opps2, World At War, and Ghost</p>
                                     </div>
@@ -143,7 +181,7 @@
                                             </figure>
                                         </div>
                                         <div class="col-md-6">
-                                                    <h2 class="text-center">Minecraft</h2>
+                                                    <h2 class="gm-text text-center">Minecraft</h2>
                                                 <p class="img-text text-center">Minecraft is a game I play when I just want to chill and just have fun with some friends</p>
                                                 <p class="img-text text-center">What I like about is that it allow you to be creative with your building and some someone like me who like to be creative is a great fit for me</p>
                                             </div>
@@ -157,13 +195,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2 class="footerheading">contacts</h2>
+                        <h2 class="footer-heading text-light">contacts</h2>
                     <ul class=" myContacts list-unstyled">
                         <li>
-                            <a href="tel:6019187211">Call me <span class="icon"><i class="bi bi-emoji-kiss"></i></span></a>
+                            <a href="tel:6019187211" class="footer-link text-light">Call me <span class="icon"><i class="bi bi-emoji-kiss"></i></span></a>
                         </li>
                         <li>
-                            <a href="mailto:clintjackson601@gmail.com">Email: clintjackson601@gmail.com</a>
+                            <a href="mailto:clintjackson601@gmail.com"class="footer-link text-light">Email: clintjackson601@gmail.com</a>
                         </li>
                     </ul>
                     </div>

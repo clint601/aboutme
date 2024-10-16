@@ -1,4 +1,9 @@
 :root{
+    --font1:"Rubik Glitch", system-ui;
+    --font2:"Trade Winds", system-ui;
+    --prim: #bf0603;
+    --sec: #660708;
+    --icon: #e5383b;
 
 }
 
@@ -11,16 +16,67 @@
 
 /* classes */
 
+.ab-text{
+    font-family: var(--font1);
+}
+
+
+.card-title{
+    font-family: var(--font2);
+}
+
+
+.box-img{
+    box-shadow: 0 5px 5px #aaa;
+}
+
+.footer-heading{
+    font-family: var(--font2);
+}
+
+.footer-link{
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: black;
+}
+
+.gm-text{
+    font-family: var(--font2);
+}
+
+.heading{
+    font-family: var(--font1);
+}
+
+.header-text{
+    font-family: var(--font2);
+}
+
+.header-link{
+    color: white;
+}
+
 .header-link:hover{
-    color: red;
+    color: black;
+}
+
+.rd-text{
+    font-family: var(--font2);
 }
 
 .social-link{
     font-size: 25px;
+    color:#161a1d;
+    font-family: var(--font2);
 }
 
 .social-link:hover{
     color: red;
+}
+
+.sp-text{
+    font-family: var(--font2);
 }
 
 .learn{
@@ -28,7 +84,19 @@
 }
 
 .icon{
-    color: red;
+    color:#e5383b ;
 }
 
+
 /* ids */
+
+#headerSection2 , #headerSection1{
+    background-color: #bf0603;
+    color: white;
+    
+}
+
+#footerSection1{
+    background-color: var(--sec);
+}
+

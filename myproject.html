@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Major+Mono+Display&family=Oooh+Baby&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Qwitcher+Grypen:wght@400;700&family=Rubik+Glitch&family=Trade+Winds&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Major+Mono+Display&family=Oooh+Baby&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Qwitcher+Grypen:wght@400;700&family=Rubik+Glitch&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -11,25 +17,106 @@
 <body>
     <header class="header">
         <section class="section" id="headerSection1">
-            <div class="contanier mb-5">
+            <div class="contanier">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <h1 class="heading">FwCj</h1>
-                    </div>
-                        <nav class="nav d-none d-lg-flex main-nav justify-content-lg-center" id="mainNav">
-                            <a href="index.html" class="header-link nav-link text-uppercase">Home</a>
-                            <a href="about.html" class="header-link nav-link text-uppercase">About</a>
-                            <a href="myproject.html" class="header-link nav-link text-uppercase">project</a>
-                            <a href="sports.html" class="header-link nav-link text-uppercase">sports</a>
-                            <a href="gaming.html" class="header-link nav-link text-uppercase">Gaming</a>
-                            <a href="reading.html" class="header-link nav-link text-uppercase">Reading</a>
-                            <a href="tvshows.html" class="header-link nav-link text-uppercase">Tvshow</a>
-                        </nav>
+                    <div class="col-lg-8">
+                        <!-- <a class="btn btn-primary"
+                        data-bs-toggle="offcanvas" 
+                        href="#offCanvas" 
+                        role="button" 
+                        aria-controls="offCanvas"></a>
+                        <div class="offcanvas offcanvas-start"
+                        tabindex="-1"
+                        id="offCanvas"
+                        aria-labelledby="offcanvasLabel">
+                            <div class="offcanvas-header">
+                            <button 
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close">
+                        </button>
+                        <ul class="offcanvas-menu">
+                            <li>
+                                <a href="index.html" class="offcanvas-item">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html" class="offcanvas-item">About</a>
+                            </li>
+                            <li>
+                                <a href="myproject.html" class="offcanvas-item">Project</a>
+                            </li>
+                            <li>
+                                <a href="#" class="offcanvas-item">Sports</a>
+                            </li>
+                            <li>
+                                <a href="#" class="offcanvas-item">Gaming</a>
+                            </li>
+                            <li>
+                                <a href="#" class="offcanvas-item">Reading</a>
+                            </li>
+                            <li>
+                                <a href="#" class="offcanvas-item">TvShows</a>
+                            </li>
+                        </ul>
+                    </div> -->
+                        <div class="drop-down-div d-lg-none">
+                            <div class="dropdown text-end text-sm-end mt-5">
+                                <button class="btn dropdown-btn dropdowntoggle btn-outline-danger"
+                                type="button" 
+                                role="button"
+                                data-bs-toggle="dropdown" 
+                                aria-expanded="false"
+                                >tap</button>
+                                <ul class="dropdown-menu ">
+                                    <li>
+                                        <a href="index.html" class="dropdown-item">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html" class="dropdown-item">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="myproject.html" class="dropdown-item">Project</a>
+                                    </li>
+                                    <li>
+                                        <a href="sports.html" class="dropdown-item">Sports</a>
+                                    </li>
+                                    <li>
+                                        <a href="gaming.html" class="dropdown-item">Gaming</a>
+                                    </li>
+                                    <li>
+                                        <a href="reading.html" class="dropdown-item">Reading</a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="#" class="dropdown-item">TvShows</a>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section" id="headerSection2">
+            <div class="contanier mb-5">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h1 class="heading">CjPage</h1>
+                    </div>
+                        <nav class="nav d-none d-lg-flex main-nav justify-content-lg-center" id="mainNav">
+                            <a href="index.html" class="header-text header-link nav-link text-uppercase">Home</a>
+                            <a href="about.html" class="header-text header-link nav-link text-uppercase">About</a>
+                            <a href="myproject.html" class="header-text header-link nav-link text-uppercase">project</a>
+                            <a href="sports.html" class="header-text header-link nav-link text-uppercase">sports</a>
+                            <a href="gaming.html" class="header-text header-link nav-link text-uppercase">Gaming</a>
+                            <a href="reading.html" class="header-text header-link nav-link text-uppercase">Reading</a>
+                            <!-- <a href="tvshows.html" class="header-link nav-link text-uppercase">Tvshow</a> -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="headerSection3">
             <div class="container">
                 <nav class="nav justify-content-center justify-content-md-end">
                     <a href="#" class="nav-link social-link">
@@ -40,15 +127,15 @@
                         <i class="bi bi-facebook"></i>
                         <span class="visually-hidden">facebook</span>
                     </a>
-                    <a href="#" class="nav-link social-link">
+                    <a href="https://x.com/clint3549283526" class="nav-link social-link">
                         <i class="bi bi-twitter"></i>
                         <span class="visually-hidden">twitter</span>
                     </a>
-                    <a href="#" class="nav-link social-link">
+                    <a href="https://github.com/clint601" class="nav-link social-link">
                         <i class="bi bi-github"></i>
                         <span class="visually-hidden">github</span>
                     </a>
-                    <a href="#" class="nav-link social-link">
+                    <a href="https://www.linkedin.com/in/clint-jackson-61a817331/" class="nav-link social-link">
                         <i class="bi bi-linkedin"></i>
                         <span class="visually-hidden">linkedin</span>
                     </a>
@@ -60,7 +147,7 @@
     <main class="main" id="main">
         <section class="section" id="Section1">
             <div class="container">
-                <h2 class="text-center mb-5">MyProjects</h2>
+                <h2 class=" ab-text text-center mb-5">MyProjects</h2>
                 <div class="row">
                     <div class="col-md-6 mb-5">
                         <img src="images/Screenshot (2).png" class="card-img img-fluid w-75" alt="an image of a web page">
@@ -71,7 +158,7 @@
                     <a href="https://github.com/clint601/bootDextroix"target="_blank" class="btn btn-primary">code</a>
                 </div>
             </div>
-        <div class="col-md-6">
+        <div class="col-md-6 mb-5">
                         <img src="images/Screenshot (3).png" class="card-img img-fluid w-75" alt="an image of a web page">
                         <div class="card-body">
                         <h2 class="card-title">Bloom</h2>
@@ -80,7 +167,7 @@
                     <a href="https://github.com/clint601/bootbloom" target="_blank" class="btn btn-primary">code</a>
             </div>
         </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mb-5">
                         <img src="images/Screenshot (4).png" class="card-img img-fluid w-75" alt="an image of a web page">
                         <div class="card-body">
                         <h2 class="card-title">FakeZon</h2>
@@ -107,15 +194,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="footerheading">contacts</h2>
-                    <ul class=" myContacts list-unstyled">
-                        <li>
-                            <a href="tel:6019187211">Call me <span class="icon"><i class="bi bi-emoji-kiss"></i></span></a>
-                        </li>
-                        <li>
-                            <a href="mailto:clintjackson601@gmail.com">Email: clintjackson601@gmail.com</a>
-                        </li>
-                    </ul>
+                    <h2 class="footer-heading text-light">contacts</h2>
+                <ul class=" myContacts list-unstyled">
+                    <li>
+                        <a href="tel:6019187211" class="footer-link text-light">Call me <span class="icon"><i class="bi bi-emoji-kiss"></i></span></a>
+                    </li>
+                    <li>
+                        <a href="mailto:clintjackson601@gmail.com"class="footer-link text-light">Email: clintjackson601@gmail.com</a>
+                    </li>
+                </ul>
                 </div>
             </div>
         </div>
